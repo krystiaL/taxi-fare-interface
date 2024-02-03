@@ -181,7 +181,7 @@ const initFlatpickr = () => {
 };
 
 const predict = () => {
-  const taxiFareApiUrl = 'https://taxifare.lewagon.ai/predict';
+  const taxiFareApiUrl = 'https://taxifare.lewagon.ai/predit';
   const form = document.querySelector('form');
   if (form) {
     form.addEventListener('submit', (e) => {
