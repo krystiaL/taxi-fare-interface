@@ -181,6 +181,7 @@ const initFlatpickr = () => {
 };
 
 const predict = () => {
+  const taxiFareApiUrl = 'https://YOUR_API_URL/predict';
   const form = document.querySelector('form');
   if (form) {
     form.addEventListener('submit', (e) => {
